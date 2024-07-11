@@ -4,7 +4,7 @@ var score;
 score = 90;
 console.log(score);
 var score;
-score = 100;
+score = 110;
 console.log(score);
 
 /* Further Adventures
