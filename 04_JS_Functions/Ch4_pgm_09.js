@@ -1,8 +1,14 @@
 // Using a function to display object properties
 
 var showMovieInfo;
+var movie;
+movie = {
+  title: "The Matrix",
+  actors: "Keanu Charles Reeves",
+  director: "The Wachowskis"
+};
 
-showMovieInfo = function () {
+showMovieInfo = function (movie) {
   console.log("Movie information for " + movie.title);
   console.log("------------------------------");
   console.log("Actors: " + movie.actors);
@@ -10,7 +16,7 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
-
+showMovieInfo(movie);
 
 /* Further Adventures
  *

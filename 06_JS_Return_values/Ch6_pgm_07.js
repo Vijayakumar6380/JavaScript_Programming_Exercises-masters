@@ -3,11 +3,13 @@
 var getPlayerName;
 
 getPlayerName = function (playerName) {
-    return playerName;
-};
+    return "|\n| " + playerName + "\n|";
+    };
 
 console.log(getPlayerName("Kandra"));
-
+console.log(getPlayerName("Kiki"));
+console.log(getPlayerName("Mahesha"));
+console.log(getPlayerName("Jahver"));
 
 
 /* Further Adventures

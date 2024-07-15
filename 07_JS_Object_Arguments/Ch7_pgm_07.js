@@ -5,7 +5,20 @@ var bigPlanet = planet.toUpperCase();
 
 console.log(planet + " becomes " + bigPlanet);
 
+var getBig = function () {
+    var planet = "Earth";
+    var bigPlanet = planet.toUpperCase();
+    console.log(planet + " becomes " + bigPlanet);
+};
 
+var getSmall = function (){
+    var planet = "Mars"; 
+    var smallPlanet = planet.toLowerCase();
+    console.log(planet + " becomes " + smallPlanet);
+}
+
+getBig();
+getSmall();
 
 /* Further Adventures
  *

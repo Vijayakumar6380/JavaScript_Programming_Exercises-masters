@@ -2,12 +2,18 @@
 
 var movie1;
 var showMovieInfo;
-var movie;
+var movie2;
 
 movie1 = {
     title: "Inside Out",
     actors: "Amy Poehler, Bill Hader",
     directors: "Pete Doctor, Ronaldo Del Carmen"
+};
+
+movie2 = {
+  title: "The Matrix",
+  actors: "Keanu Charles Reeves",
+  directors: "The Wachowskis"
 };
 
 showMovieInfo = function () {
@@ -19,6 +25,7 @@ showMovieInfo = function () {
 };
 
 movie = movie1;
+movie = movie2;
 
 showMovieInfo();
 

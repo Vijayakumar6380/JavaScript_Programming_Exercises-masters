@@ -6,8 +6,9 @@ showMessage = function (message) {
 	console.log("The message is: " + message);
 };
 
-showMessage("It's full of stars!");
-
+showMessage("The sky full of darkness");
+showMessage("But, the star's fill's the dark sky!");
+showMessage("But, moon give's a full fillness");
 
 
 /* Further Adventures

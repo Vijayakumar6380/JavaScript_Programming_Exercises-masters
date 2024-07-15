@@ -1,15 +1,34 @@
 // Using Math.min and Math.max to constrain an argument
 
 var line = function (lineLength) {
-    var line = "========================================";
+    var line = "> ==================";
     lineLength = Math.max(0, lineLength);
     lineLength = Math.min(40, lineLength);
     return line.substr(0, lineLength);
   };
   
-  console.log(line(30));
-  console.log(line(40));
-  console.log(line(50));
+ 
+  var spaces = function (numSpaces) {
+    numSpaces = Math.max(0, numSpaces);
+    numSpaces = Math.min(40, numSpaces);
+    return Array(numSpaces + 1).join(" ");
+};
+
+  
+  var emptyBox = function (width) {
+    width = Math.max(0, width);
+    width = Math.min(40, width);
+    var topBottomLine = "> =" + Array(width + 1).join("=") + "=";
+    var middleLine = "> =" + spaces(width) + "=";
+    console.log(topBottomLine);
+    for (var i = 0; i < 3; i++) {
+        console.log(middleLine);
+    }
+    console.log(topBottomLine);
+};
+
+emptyBox(12);
+
   
   
   

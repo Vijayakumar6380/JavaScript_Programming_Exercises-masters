@@ -7,9 +7,15 @@ var showSmaller = function (num1, num2) {
     console.log(smaller + " is smaller than " + larger);
 };
 
+var showLarger = function (num1, num2) {
+    var smaller = Math.min(num1, num2);
+    var larger = Math.max(num1, num2);
+    console.log(larger + " is larger than " + smaller);
+};
+
 showSmaller(12, 3);
 showSmaller(-10, 3);
-
+showLarger(3, 6);
 
 
 /* Further Adventures

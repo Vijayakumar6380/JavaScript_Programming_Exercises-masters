@@ -7,6 +7,7 @@ var removed;
 items.push(item);
 items.push("The Grand Canyon");
 items.push("Bondi Beach");
+items.push("The Great Wall of China");
 
 console.log(items);
 
@@ -14,6 +15,16 @@ removed = items.pop();
 
 console.log(removed + " was removed");
 console.log(items.join(" and "));
+console.log(items.join("  "))
+
+items.push("The Eiffel Tower");
+console.log(items.join(", "));
+
+items[2] = "The Taj Mahal";
+console.log(items);
+
+items.push("The Colosseum");
+console.log(items);
 
 
 

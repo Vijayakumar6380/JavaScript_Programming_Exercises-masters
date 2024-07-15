@@ -7,11 +7,15 @@ getMessage = function () {
     return "I’m going on an adventure!";
 };
 
+getMyMessage = function() {
+};
+
 response = getMessage();
 
 console.log(response);
-
-
+getMyMessage();
+console.log(getMessage());
+getMyMessage();
 
 /* Further Adventures
  *

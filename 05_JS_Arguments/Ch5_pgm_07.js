@@ -3,7 +3,7 @@
 var showPlayerName;
 
 showPlayerName = function (playerName) {
-    console.log(playerName);
+    console.log(playerName.length);
 };
 
 showPlayerName("Kandra");

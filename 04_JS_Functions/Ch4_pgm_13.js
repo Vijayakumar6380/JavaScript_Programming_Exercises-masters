@@ -3,7 +3,9 @@
 var player1;
 var player2;
 var player;
-var showPlayerInfo;
+var Name;
+var place;
+var health;
 
 player1 = {
     name: "Kandra",
@@ -17,20 +19,44 @@ player2 = {
     health: 40
 };
 
-showPlayerInfo = function () {
-    console.log(player.name);
-    console.log("------------------------------");
-    console.log(player.name + " is in " + player.place);
-    console.log(player.name + " has health " + player.health);
-    console.log("------------------------------");
-    console.log("");
+Name = {
+    name: "Kandra",
+    name: "Dax",
+}
+
+place = {
+    place: "The Dungeon of Doom",
+    place: "The Old Library",
 };
 
+health = {
+    health: 50,
+    health: 40
+}
+
+Name = function (){
+    console.log("Name: " + player.name);
+}
+
+place = function(){
+    console.log(player.name + " are in " + player.place);
+}
+
+health = function(){
+    console.log(player.name + " health is " + player.health);
+};
+
+
+
 player = player1;
-showPlayerInfo();
+Name();
+place();
+health();
 
 player = player2;
-showPlayerInfo();
+Name();
+place();
+health();
 
 
 

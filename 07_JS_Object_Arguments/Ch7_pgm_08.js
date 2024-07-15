@@ -2,7 +2,11 @@
 
 var message = "We choose to go to the Moon!";
 
-console.log(message.substr(3, 12));
+console.log(message.substring(23, 28));
+console.log(message.substr(12, 10));
+console.log(message.slice(0, 9));
+
+
 
 
 
